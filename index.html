@@ -1,12 +1,33 @@
 <html>
     <head>
-        <title>Diseño Adaptable Test</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <title>Diseño Adaptable</title>
     </head>
-    <body>
-        <img src="img/Logo-UPB-2022.svg"/>
-        <p>
-            This is a test.
-        </p>
+    <body>        
+        <div class="login_box">
+            <div class="div1" id="logo">
+                <img src="img/Logo-UPB-2022.svg" alt="image" id="main_logo"/>
+            </div>
+            <div class="div2" id="user"> 
+                Usuario (ID)
+            </div>
+            <div class="div3" id="user_input">
+                <input type="text" placeholder="000XXXXXX">
+            </div>
+            <div class="div4" id="password">
+                Contraseña
+            </div>
+            <div class="div5" id="password_input">
+                <input type="password" placeholder="*************">
+            </div>
+            <div class="div6" id="checkbox">
+                <span>Mantener la sesión iniciada</span>
+                <input type="checkbox" checked="false" class="home-checkbox" />
+            </div>
+            <div class="div7" id="login_button">
+                <a href="main_menu.html"> <input type="submit" value="Iniciar sesión" id="enter_button"></a>                
+            </div>
+        </div>
 
 
     </body>
