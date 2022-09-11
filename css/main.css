@@ -1,11 +1,6 @@
-body{
-    transform: scale(2);   
-}
-
 .login_box 
 {
-    position:absolute;
-    margin-top: 300px;
+    position:relative;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
@@ -15,8 +10,10 @@ body{
     width:300px;
     height:300px;
     padding:40px;
+    margin-top: 300px;
     left:50%;
-    transform: translate(-50%); 
+    transform: translate(-50%) scale(2);
+    
 }
 
 .div1
