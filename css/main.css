@@ -1,17 +1,22 @@
+body{
+    transform: scale(2);   
+}
+
 .login_box 
 {
+    position:relative;
+    margin-top: 300px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    position:relative;
+    grid-row-gap: 0px;    
     background:gainsboro;
     width:300px;
     height:300px;
     padding:40px;
     left:50%;
-    transform: translate(-50%);
+    transform: translate(-50%); 
 }
 
 .div1
