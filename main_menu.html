@@ -1,27 +1,26 @@
 <html>
     <head>
-        <title>Diseño Adaptable Test</title>
+        <link href="css/main_menu.css" rel="stylesheet" type="text/css">
+        <title>Home</title>
     </head>
-    <body>
-        <div>
-          <link href="./home.css" rel="stylesheet" />
-    
-          <div class="home-container">
-            <img src="img/Logo-UPB-2022.svg" alt="image" class="home-image"/>
-            <div class="home-container1">
-              <span class="home-text">Usuario (ID)</span>
-              <input
-                type="text" placeholder="000XXXXXX" class="input home-textinput"/>
-              <span class="home-text1">Contraseña</span>
-              <input
-                type="password" placeholder="***********" class="input home-textinput1"/>
-              <span class="home-text2">
-                <span>Mantener la sesión Iniciada</span>
-                <br />
-              </span>
-              <input type="checkbox" checked="false" class="home-checkbox" />
+    <body>        
+        <div class="banner"></div>
+        <div class="menu_box">
+            <div class="div1" id="horario">
+                <a href="horario.html" class="link_button">Horario de Clases</a>
             </div>
-          </div>
+            <div class="div2" id="tareas"> 
+                <a href="tareas.html" class="link_button">Tareas</a>
+            </div>
+            <div class="div3" id="calificaciones">
+                <a href="calificaciones.html" class="link_button">Calificaciones</a>
+            </div>
+            <div class="div4" id="sigaa" >
+                <a href="https://sigaa.upb.edu.co/ssomanager/c/SSB" id="sigaa_link" class="link_button">Acceso SIGAA</a>
+            </div>
+            <div class="div5" id="moodle">
+                <a href="https://auladigital.upb.edu.co" id="moodle_link" class="link_button">Aula Digital</a>
+            </div>
         </div>
-      </body>
+    </body>
 </html>
