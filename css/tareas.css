@@ -1,0 +1,17 @@
+/* Estilos para celular*/
+@media screen and (min-width: 350px){
+    body{
+        background-color: blue;
+    }
+
+}
+
+
+}
+/* Estilos para tablet*/
+@media screen and (min-width: 700px){
+    body{
+        background-color: green;
+    }
+
+}
