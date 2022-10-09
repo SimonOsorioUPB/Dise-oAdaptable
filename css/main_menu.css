@@ -87,7 +87,7 @@
 /* Estilos para celular*/
 @media screen and (min-width: 350px){
     body{
-        background-color: blue;
+        /*background-color: blue;*/
     }
 
 .menu_box 
@@ -113,7 +113,7 @@
 /* Estilos para tablet*/
 @media screen and (min-width: 700px){
     body{
-        background-color: green;
+        /*background-color: green;*/
     }
 .menu_box 
 {
