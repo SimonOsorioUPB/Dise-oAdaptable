@@ -71,16 +71,16 @@
     position:relative;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;    
     background:gainsboro;
     width:200px;
     height:400px;
-    padding:20px;
-    margin-top: 300px;
+    padding:5px;
+    margin-top: 120px;
     left:50%;
-    transform: translate(-50%) scale(2);
+    transform: translate(-50%) scale(1.5);
 
 
 
