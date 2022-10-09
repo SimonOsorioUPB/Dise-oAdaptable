@@ -100,9 +100,9 @@
     grid-row-gap: 0px;
     background:rgb(104, 104, 104);
     width:300px;
-    height:300px;
+    height:400px;
     padding:40px;
-    margin-top:300px;
+    margin-top:125px;
     left:50%;
     transform: translate(-50%) scale(1);
     border-radius:20px;
