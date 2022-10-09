@@ -42,16 +42,7 @@
     text-align: center;
 }
 
-.banner{
-    position:fixed;
-    background:purple;
-    width:100%;
-    height:80px;
-    text-align:center;
-    top:0;
-    left:0;
-    color:white;
-}
+
 
 .link_button{
     padding:10px;
@@ -70,11 +61,7 @@
     background:grey;
 }
 
-.banner_title{
-    text-align: center;
-    font-size:30px;
-    color:white;
-}
+
 
 #back_button{
     position: relative;
@@ -82,6 +69,23 @@
     right:0;
 }
 
+
+.banner_title{
+    text-align: center;
+    font-size:30px;
+    color:white;
+}
+
+.banner{
+    position:fixed;
+    background:purple;
+    width:100%;
+    height:80px;
+    text-align:center;
+    top:0;
+    left:0;
+    color:white;
+}
 
 
 /* Estilos para celular*/
@@ -108,6 +112,22 @@
     border-radius:20px;
 }
 
+.banner_title{
+    text-align: center;
+    font-size:30px;
+    color:white;
+}
+
+.banner{
+    position:fixed;
+    background:purple;
+    width:100%;
+    height:80px;
+    text-align:center;
+    top:0;
+    left:0;
+    color:white;
+}
 
 }
 /* Estilos para tablet*/
@@ -125,11 +145,31 @@
     grid-row-gap: 0px;
     background:rgb(104, 104, 104);
     width:300px;
-    height:300px;
+    height:270px;
     padding:40px;
-    margin-top:300px;
+    margin-top:350px;
     left:50%;
     transform: translate(-50%) scale(2);
     border-radius:20px;
 }
+
+.banner_title{
+    text-align: center;
+    font-size:45px;
+    color:white;
+}
+
+.banner{
+    position:fixed;
+    background:purple;
+    width:100%;
+    height:120px;
+    text-align:center;
+    top:0;
+    left:0;
+    color:white;
+    font-size:55px;
+}
+
+
 }
