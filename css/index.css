@@ -66,11 +66,47 @@
     body{
         background-color: blue;
     }
+
+.login_box{
+    position:relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;    
+    background:gainsboro;
+    width:200px;
+    height:400px;
+    padding:20px;
+    margin-top: 300px;
+    left:50%;
+    transform: translate(-50%) scale(2);
+
+
+
+
 }
 /* Estilos para tablet*/
-@media screen and (min-width: 800px){
+@media screen and (min-width: 700px){
     body{
         background-color: green;
     }
+
+
+
+    .login_box{
+    position:relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;    
+    background:gainsboro;
+    width:300px;
+    height:300px;
+    padding:40px;
+    margin-top: 300px;
+    left:50%;
+    transform: translate(-50%) scale(2);
 }
 
