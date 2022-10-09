@@ -64,7 +64,7 @@
 /* Estilos para celular*/
 @media screen and (min-width: 350px){
     body{
-        background-color: blue;
+        /* for debuggingbackground-color: blue;*/
     }
 
 .login_box{
@@ -89,7 +89,7 @@
 /* Estilos para tablet*/
 @media screen and (min-width: 700px){
     body{
-        background-color: green;
+        /* for debuggingbackground-color: green;*/
     }
 
 
