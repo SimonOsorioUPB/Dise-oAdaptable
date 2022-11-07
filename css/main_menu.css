@@ -1,10 +1,11 @@
-
-
-
-
-
-
-
+body {
+    background-image: url(../img/Galira.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
 
 .menu_box 
 {
@@ -15,8 +16,8 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     background:rgb(104, 104, 104);
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     padding:40px;
     margin-top:300px;
     left:50%;
@@ -54,11 +55,11 @@
 
 .link_button{
     padding:10px;
-    width:100%;
+    width:1100px;
     height:40px;
     text-decoration:none;
     font-family:sans-serif;
-    color:gainsboro;
+    color:rgb(255, 255, 255);
     font-size:15px;
     text-align:center;
     background:rgb(78, 78, 78);
@@ -97,19 +98,28 @@
 
 
 /* Estilos para celular*/
-@media screen and (min-width: 350px){
+@media screen and (min-width: 50px){
 
-.califiaciones{
-    transform: translate(-30%) scale(0.6);
-}
-
-.tarea{
-    transform: translate(-25%) scale(0.6);
-}
-
-.horario{
-    transform: translate(-25%) scale(0.6);
-}
+    #horario
+    {
+        transform: translate(0%, 30%) scale(1);
+    }
+        
+    #calificaciones{
+        transform: translate(0%, 30%) scale(01);
+    }
+    
+    #tareas{
+        transform: translate(0%, 30%) scale(1);
+    }
+    
+    #sigaa{
+        transform: translate(0%, 30%) scale(1);
+    }
+    
+    #moodle{
+        transform: translate(0%, 30%) scale(1);
+    }
 
 .menu_box 
 {
@@ -120,9 +130,9 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     background:rgb(104, 104, 104);
-    width:300px;
-    height:400px;
-    padding:40px;
+    width:230px;
+    height:250px;
+    padding: 20px;;
     margin-top:125px;
     left:50%;
     transform: translate(-50%) scale(1);
@@ -137,7 +147,7 @@
 
 .banner{
     position:fixed;
-    background:purple;
+    background:rgb(143, 75, 143);
     width:100%;
     height:80px;
     text-align:center;
@@ -150,23 +160,35 @@
 /* Estilos para tablet*/
 @media screen and (min-width: 700px){
 
-.califiaciones{
-    transform: translate(-20%) scale(1);
-    transform: translateY(220px);
+#horario
+{
+    transform: translate(0%, 30%) scale(1);
+}
+    
+#calificaciones
+{
+    transform: translate(0%, 30%) scale(1);
 }
 
-.tarea{
-    transform: translate(-10%) scale(1);
-    transform: translateY(220px);
+#tareas
+{
+    transform: translate(0%, 30%) scale(1);
 }
 
-.horario{
-    transform: translate(-25%) scale(0.8);
-    transform: translateY(220px);
+#sigaa
+{
+    transform: translate(0%, 30%) scale(1);
 }
 
+#moodle
+{
+    transform: translate(0%, 30%) scale(1);
+}
 
-
+#upb_logo
+{
+    transform: translate(0%, 0%) scale(0.5);
+}
 
 .menu_box 
 {
@@ -177,13 +199,14 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     background:rgb(104, 104, 104);
-    width:300px;
-    height:270px;
-    padding:40px;
+    width:230px;
+    height:250px;
+    padding:20px;
     margin-top:350px;
     left:50%;
     transform: translate(-50%) scale(2);
     border-radius:20px;
+    opacity: 0.95;
 }
 
 .banner_title{
@@ -194,7 +217,7 @@
 
 .banner{
     position:fixed;
-    background:purple;
+    background:rgb(143, 75, 143);
     width:100%;
     height:120px;
     text-align:center;
@@ -203,6 +226,5 @@
     color:white;
     font-size:55px;
 }
-
 
 }
