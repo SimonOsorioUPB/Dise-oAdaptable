@@ -18,7 +18,7 @@ body {
     background:rgb(104, 104, 104);
     width:200px;
     height:200px;
-    padding:40px;
+    padding:15px;
     margin-top:300px;
     left:50%;
     transform: translate(-50%) scale(2);
@@ -138,7 +138,7 @@ body {
     background:rgb(104, 104, 104);
     width:230px;
     height:250px;
-    padding: 20px;;
+    padding: 15px;;
     margin-top:125px;
     left:50%;
     transform: translate(-50%) scale(1);
@@ -208,7 +208,7 @@ body {
     background:rgb(104, 104, 104);
     width:230px;
     height:250px;
-    padding:20px;
+    padding:15px;
     margin-top:350px;
     left:50%;
     transform: translate(-50%) scale(2);
