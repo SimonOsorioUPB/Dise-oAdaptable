@@ -121,6 +121,12 @@ body {
         transform: translate(0%, 30%) scale(1);
     }
 
+#upb_logo
+{
+    transform: translate(0%, -32%) scale(0.3);
+    margin-top:0px;
+}
+
 .menu_box 
 {
     position:relative;
@@ -187,7 +193,8 @@ body {
 
 #upb_logo
 {
-    transform: translate(0%, 0%) scale(0.5);
+    transform: translate(0%, -40%) scale(0.1);
+    margin-top:0px;
 }
 
 .menu_box 
